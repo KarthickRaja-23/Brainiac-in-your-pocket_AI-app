@@ -16,7 +16,7 @@ source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,
 
 # (list) List of inclusions using pattern matching
-source.include_patterns = *.py, dataset/*, models/*
+source.include_patterns = *.py, *.json, *.keras
 
 # (list) Source files to exclude (let empty to not exclude anything)
 #source.exclude_exts = spec
@@ -64,7 +64,7 @@ orientation = portrait
 # author = © Copyright Info
 
 # change the major version of python used by the app
-osx.python_version = 3
+osx.python_version = 3.12.3
 
 # Kivy version to use
 osx.kivy_version = 1.9.1
